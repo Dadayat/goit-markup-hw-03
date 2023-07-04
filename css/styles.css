@@ -34,11 +34,9 @@ body {
 }
 
 .container {
-    max-width: 1158px;
-    padding-left: 15
-    padding-right: 
-    margin-left: 
-    margin-right:
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .link {text-decoration: none;
@@ -63,6 +61,14 @@ body {
 
 /**------------ HEADER-------------- */
 
+.header-navigation {
+    display: flex;
+}
+
+.header-container {
+    display: flex;
+}
+
 .header-logo {
     color: var(--logo-color);
     font-size: 18px;
@@ -75,6 +81,10 @@ body {
 
 .header-logo span {
     color: var(--primary-black-color);
+}
+
+.header-menu {
+    display: flex;
 }
 
 .header-menu-link {
@@ -106,6 +116,9 @@ body {
     color: var(--hover-color); 
 }
 
+.header-address-list {
+    display: flex;
+}
 /**------------ HERO-------------- */
 
 .hero {
