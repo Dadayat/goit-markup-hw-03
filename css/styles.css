@@ -1,0 +1,234 @@
+:root {
+    --primary-font: "Roboto", sans-serif;
+    --secodary-font: "Raleway", sans-serif;
+    --main-text-color: #434455;
+    --basic-white-color: #ffffff;
+    --secondary-white-color: #F4F4FD;
+    --logo-color: #4D5AE5;
+    --hover-color: #404BBF;
+    --primary-black-color: #2E2F42;
+}
+
+body {
+    font-family: var(--primary-font);
+    color: var(--main-text-color);
+    background-color: var(--basic-white-color);
+}
+
+.link {text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.visually-hidden {
+    margin: -1px;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+}
+
+/**------------ HEADER-------------- */
+
+.header-logo {
+    color: var(--logo-color);
+    font-size: 18px;
+    font-family: var(--secodary-font);
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.header-logo span {
+    color: var(--primary-black-color);
+}
+
+.header-menu-link {
+    color: var(--primary-black-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: var(--hover-color);
+}
+
+.header-address {
+    font-style: normal;
+}
+
+.header-address-link {
+    color: var(--main-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+    color: var(--hover-color); 
+}
+
+/**------------ HERO-------------- */
+
+.hero {
+    background-color: var(--primary-black-color);
+}
+
+.hero-title {
+    color: var(--basic-white-color);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.hero-btn {
+    color: var(--basic-white-color);
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: var(--logo-color);
+    cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--hover-color);
+}
+
+/**------------ FEATURE-------------- */
+
+.feature-subtitle {
+    color: var(--primary-black-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.feature-item-text {
+    color: var(--main-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/**------------ PRODUCT-------------- */
+
+.product-title {
+    color: var(--primary-black-color);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+/**------------ TEAM-------------- */
+
+.team-section {
+    background-color: var(--secondary-white-color);
+}
+
+.team-title {
+    color: var(--primary-black-color);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team-item {
+    background-color: var(--basic-white-color);
+}
+
+.team-subtitle {
+    color: var(--primary-black-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.team-item-text {
+    color: var(--main-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/**------------ FOOTER-------------- */
+
+.footer {
+    background-color: var(--primary-black-color);
+}
+
+.footer-logo {
+    color: var(--logo-color);
+    font-size: 18px;
+    font-family: var(--secodary-font);
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-logo span {
+    color: var(--secondary-white-color);
+}
+
+.footer-text {
+    color: var(--secondary-white-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/**------------ FILTER-------------- */
+
+
+.filter-btn {
+    color: var(--logo-color);
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: var(--secondary-white-color);
+    cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+    color: var(--basic-white-color);
+    background-color: var(--hover-color);
+}
+
+/**------------ PROJECT-------------- */
+
+
+.project-subtitle {
+    color: var(--primary-black-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.project-item-text {
+    color: var(--main-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
